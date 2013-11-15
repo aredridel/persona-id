@@ -158,6 +158,10 @@ Sign out.
 Set the persona id `email` string for when the server already knows from session
 data that the user is authenticated.
 
+## p.destroyCookie(res)
+
+Destroy the session cookie used for logins.
+
 ## browser events
 
 ### p.on('login', function (id) {})
